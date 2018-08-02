@@ -1,28 +1,24 @@
 var nodemailer = require('nodemailer');
 var snem = require('snd-ema');
 // === json
-var conf=require("./conf.json")
+var cnf=require("../son/cnf.json")
 var ema=require("../son/ema.json")
-// === ema
-var frem="info@mail.com
-var toem="you@mail.com"
-var cc="cc@mail.com"
 
 // === fun
 var senEma = function() {
 console.log('=== senEma =======================================');
 
-console.log(conf.HOST)
-console.log(conf.USR)
-console.log(conf.PSS)
+console.log(cnf.HOST)
+console.log(cnf.USR)
+console.log(cnf.PSS)
 
 snem.trEma(
-conf.HOST,
-conf.USR,
-conf.PSS,
-    frem,
-    toem,
-    cc,
+cnf.HOST,
+cnf.USR,
+cnf.PSS,
+    ema.from,
+    ema.to,
+    ema.cc,
     ema.sub,
     ema.mes
   );
