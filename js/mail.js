@@ -4,9 +4,9 @@ var snem = require('snd-ema');
 var conf=require("./conf.json")
 var ema=require("../son/ema.json")
 // === ema
-var frem="matsuo@tms-e.co.jp"
-var toem="matsuo.tms@gmail.com"
-var cc="matsuo.tms@gmail.com"
+var frem="info@mail.com
+var toem="you@mail.com"
+var cc="cc@mail.com"
 
 // === fun
 var senEma = function() {
