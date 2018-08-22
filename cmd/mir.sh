@@ -1,11 +1,11 @@
-dir1=/home/admin/exp/aid/3bs
-dir2=/mnt/dat/exp/aid/3bs
+dir1=/home/admin/exp/aid/7bs
+dir2=/mnt/dat/exp/aid/7bs
 
 lftp  -u admin,bulk2010 tmsmusic.tokyo \
 -e '
-cd /home/admin/exp/aid/3bs
+cd /home/admin/exp/aid/7bs
 pwd
-lcd /mnt/dat/exp/aid/3bs
+lcd /mnt/dat/exp/aid/7bs
 lpwd
 mirror public/img 
 get routes/shop/pal/cnf.json 

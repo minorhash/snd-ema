@@ -1,6 +1,6 @@
 xp=/mnt/dat/exp
-dir1=$xp/aid/3bs
-dir2=$xp/git/3bs
+dir1=$xp/aid/7bs
+dir2=$xp/git/7bs
 
 cp -r \
 $dir1/public/img \

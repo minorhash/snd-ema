@@ -1,2 +1,6 @@
-git clone git@github.com:minorhash/3bs.git
+dir=$(pwd)
+str=${dir: -7}
+echo $str
+
+git clone git@github.com:minorhash/$str.git
 

@@ -1,5 +1,5 @@
-rem=/home/admin/exp/aid/3bs
-loc=/mnt/dat/exp/aid/3bs
+rem=/home/admin/exp/aid/7bs
+loc=/mnt/dat/exp/aid/7bs
 
 lftp  -u admin,bulk2010 tmsmusic.tokyo \
 -e '
