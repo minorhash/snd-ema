@@ -2,7 +2,7 @@
 
 - **mail server config**
 ```
-vi son/conf.json
+vi son/cnf.json
 write your mail server config.
 
 {
@@ -25,7 +25,6 @@ vi son/ema.json
 - **required modules**
 ```
 nodemailer
-snd-ema: nodemailer wrapper
 
 ```
 
