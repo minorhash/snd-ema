@@ -1,7 +1,7 @@
 {
-  "name": "ema",
+  "name": "snd-ema",
   "version": "1.0.3",
-  "description": "",
+  "description": "- **mail server config** ``` vi son/conf.json write your mail server config.",
   "main": "index.js",
   "dependencies": {
     "nodemailer": "^4.6.7",
@@ -13,5 +13,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minorhash/snd-ema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minorhash/snd-ema/issues"
+  },
+  "homepage": "https://github.com/minorhash/snd-ema#readme"
 }
